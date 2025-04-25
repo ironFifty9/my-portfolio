@@ -1,0 +1,37 @@
+.work-card {
+    display: flex;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.work-card-image {
+    width: 6rem;
+    height: 6rem;
+    object-fit: cover;
+    margin-right: 1.5rem;
+}
+
+.work-card-content {
+    flex: 1;
+}
+
+.work-card-title {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: #1A202C;
+    font-weight: 600;
+}
+
+.work-card-meta {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #4A5568;
+    margin-top: 0.5rem;
+}
+
+.work-card-text {
+    color: #4A5568;
+    margin-top: 0.5rem;
+}

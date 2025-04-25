@@ -1,0 +1,18 @@
+.featured-works {
+    padding: 1.5rem;
+}
+
+.featured-works-title {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #1A202C;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.featured-works-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
