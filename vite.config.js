@@ -14,14 +14,7 @@ export default defineConfig({
       '@': '/src',
     },
   },
-  css: {
-    postcss: {
-      plugins: [
-        require('tailwindcss'),
-        require('autoprefixer'),
-      ],
-    },
-  },
+  
   define: {
     'process.env': {},
   },
@@ -35,6 +28,13 @@ export default defineConfig({
     css: true,
   },
   plugins: [react()],
+  css: {
+    postcss: {
+      plugins: [
+        tailwindcss(),
+      ],
+    },
+  },
   server: {
     port: 3000,
   }
